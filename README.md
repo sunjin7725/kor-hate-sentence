@@ -1,11 +1,3 @@
----
-license: cc-by-sa-4.0
-tags:
-- korean
-- hate-speech
-- hate-sentence
----
-
 # SJ-Donald/kor-hate-sentence
 
 SJ-Donald/kor-hate-sentence is merged dataset from fllow
@@ -18,6 +10,10 @@ SJ-Donald/kor-hate-sentence is merged dataset from fllow
 * [korean-malicious-comments-dataset](https://github.com/seongwoong/korean-malicious-comments-dataset)
 
 Merge datasets from above and drop duplicates.
+
+## Hugginface
+
+[SJ-Donald/kor-hate-sentence](https://huggingface.co/datasets/SJ-Donald/kor-hate-sentence)
 
 ## How to use
 
@@ -37,3 +33,11 @@ DatasetDict({
         num_rows: 7333
     })
 })
+
+---
+license: cc-by-sa-4.0
+tags:
+- korean
+- hate-speech
+- hate-sentence
+---
